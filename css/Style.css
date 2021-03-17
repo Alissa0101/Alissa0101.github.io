@@ -85,8 +85,8 @@ header > h1{
     display: flex;
     justify-content: space-between;
     margin-top: 8vh;
-    margin-left: 5vw;
-    margin-right: 5vw;
+    margin-left: 25vw;
+    margin-right: 25vw;
 }
 
 #header_images > a > img{
@@ -128,6 +128,7 @@ header > h2{
             "title title"
             "tags tags"
             "image desc"
+            "imgSubheading imgSubheading"
             "next next";
     }
 }
@@ -154,7 +155,7 @@ header > h2{
 }
 
 
-.section_backgroud.something1{
+.section_backgroud.bdImage{
     background-color: #2980b9;
 }
 
@@ -162,11 +163,24 @@ header > h2{
     background-color: #27ae60;
 }
 
+.section.imgSubheading{
+    grid-area: imgSubheading;
+    font-size: 12px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    color: #999999;
+}
 
 .section.image{
     grid-area: image;
-    width: 45vw;
     max-height: 60vh;
+    width: 45vw;
+}
+
+.section.bdayimage{
+    grid-area: image;
+    max-height: 60vh;
+    margin: auto;
 }
 
 .section.title{
@@ -267,7 +281,7 @@ header > h2{
     border-top: 50px solid #e74c3c;
 }
 
-.arrow.something1{
+.arrow.bdImage{
     border-top: 50px solid #2980b9;
 }
 

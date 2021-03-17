@@ -6,8 +6,8 @@ movingImage("#left_pcSpecs", 'left', function(pos){return 0}, function(pos){retu
 movingImage("#right_pcSpecs", 'left', function(pos){return ($(window).width()-$('#right_pcSpecs').width())}, function(pos){return pos<($(window).width()-$('#right_pcSpecs').width())}, function(pos){return (($(window).width()-pos)-$('#right_pcSpecs').width())-50})
 
 
-movingImage("#left_something1", 'left', function(pos){return 0}, function(pos){return pos>0}, function(pos){return pos+50})
-movingImage("#right_something1", 'left', function(pos){return ($(window).width()-$('#right_something1').width())}, function(pos){return pos<($(window).width()-$('#right_something1').width())}, function(pos){return (($(window).width()-pos)-$('#right_something1').width())-50})
+movingImage("#left_bdImage", 'left', function(pos){return 0}, function(pos){return pos>0}, function(pos){return pos+50})
+movingImage("#right_bdImage", 'left', function(pos){return ($(window).width()-$('#right_bdImage').width())}, function(pos){return pos<($(window).width()-$('#right_bdImage').width())}, function(pos){return (($(window).width()-pos)-$('#right_bdImage').width())-50})
 
 movingImage("#left_something2", 'left', function(pos){return 0}, function(pos){return pos>0}, function(pos){return pos+50})
 movingImage("#right_something2", 'left', function(pos){return ($(window).width()-$('#right_something2').width())}, function(pos){return pos<($(window).width()-$('#right_something2').width())}, function(pos){return (($(window).width()-pos)-$('#right_something2').width())-50})
@@ -18,7 +18,7 @@ movingImage("#right_tensorflow", 'left', function(pos){return ($(window).width()
 
 movingText("#section_desc_About")
 movingText("#section_desc_pcSpecs")
-movingText("#section_desc_something1")
+movingText("#section_desc_bdImage")
 movingText("#section_desc_something2")
 movingText("#section_desc_tensorflow")
 
