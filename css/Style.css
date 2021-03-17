@@ -145,20 +145,20 @@ header > h2{
     z-index: -1;
 }
 
-.section_backgroud.ccg{
+.section_backgroud.About{
     background-color: #8e44ad;
 }
 
-.section_backgroud.terminalEngine{
+.section_backgroud.pcSpecs{
     background-color: #e74c3c;
 }
 
 
-.section_backgroud.simpleml{
+.section_backgroud.something1{
     background-color: #2980b9;
 }
 
-.section_backgroud.ofp{
+.section_backgroud.something2{
     background-color: #27ae60;
 }
 
@@ -258,19 +258,19 @@ header > h2{
     right:0;
 }
 
-.arrow.ccg{
+.arrow.About{
     border-top: 50px solid #8e44ad;
 }
 
-.arrow.terminalEngine{
+.arrow.pcSpecs{
     border-top: 50px solid #e74c3c;
 }
 
-.arrow.simpleml{
+.arrow.something1{
     border-top: 50px solid #2980b9;
 }
 
-.arrow.ofp{
+.arrow.something2{
     border-top: 50px solid #27ae60;
 }
 

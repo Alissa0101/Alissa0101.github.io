@@ -1,30 +1,26 @@
 
-movingImage("#left_ccg", 'left', function(pos){return 0}, function(pos){return pos>0}, function(pos){return pos+50})
-movingImage("#right_ccg", 'left', function(pos){return ($(window).width()-$('#right_ccg').width())}, function(pos){return pos<($(window).width()-$('#right_ccg').width())}, function(pos){return (($(window).width()-pos)-$('#right_ccg').width())-50})
+movingImage("#left_About", 'left', function(pos){return 0}, function(pos){return pos>0}, function(pos){return pos+50})
+movingImage("#right_About", 'left', function(pos){return ($(window).width()-$('#right_About').width())}, function(pos){return pos<($(window).width()-$('#right_About').width())}, function(pos){return (($(window).width()-pos)-$('#right_About').width())-50})
 
-movingImage("#left_terminalEngine", 'left', function(pos){return 0}, function(pos){return pos>0}, function(pos){return pos+50})
-movingImage("#right_terminalEngine", 'left', function(pos){return ($(window).width()-$('#right_terminalEngine').width())}, function(pos){return pos<($(window).width()-$('#right_terminalEngine').width())}, function(pos){return (($(window).width()-pos)-$('#right_terminalEngine').width())-50})
+movingImage("#left_pcSpecs", 'left', function(pos){return 0}, function(pos){return pos>0}, function(pos){return pos+50})
+movingImage("#right_pcSpecs", 'left', function(pos){return ($(window).width()-$('#right_pcSpecs').width())}, function(pos){return pos<($(window).width()-$('#right_pcSpecs').width())}, function(pos){return (($(window).width()-pos)-$('#right_pcSpecs').width())-50})
 
 
-movingImage("#left_simpleml", 'left', function(pos){return 0}, function(pos){return pos>0}, function(pos){return pos+50})
-movingImage("#right_simpleml", 'left', function(pos){return ($(window).width()-$('#right_simpleml').width())}, function(pos){return pos<($(window).width()-$('#right_simpleml').width())}, function(pos){return (($(window).width()-pos)-$('#right_simpleml').width())-50})
+movingImage("#left_something1", 'left', function(pos){return 0}, function(pos){return pos>0}, function(pos){return pos+50})
+movingImage("#right_something1", 'left', function(pos){return ($(window).width()-$('#right_something1').width())}, function(pos){return pos<($(window).width()-$('#right_something1').width())}, function(pos){return (($(window).width()-pos)-$('#right_something1').width())-50})
 
-movingImage("#left_ofp", 'left', function(pos){return 0}, function(pos){return pos>0}, function(pos){return pos+50})
-movingImage("#right_ofp", 'left', function(pos){return ($(window).width()-$('#right_ofp').width())}, function(pos){return pos<($(window).width()-$('#right_ofp').width())}, function(pos){return (($(window).width()-pos)-$('#right_ofp').width())-50})
+movingImage("#left_something2", 'left', function(pos){return 0}, function(pos){return pos>0}, function(pos){return pos+50})
+movingImage("#right_something2", 'left', function(pos){return ($(window).width()-$('#right_something2').width())}, function(pos){return pos<($(window).width()-$('#right_something2').width())}, function(pos){return (($(window).width()-pos)-$('#right_something2').width())-50})
 
 movingImage("#left_tensorflow", 'left', function(pos){return 0}, function(pos){return pos>0}, function(pos){return pos+50})
 movingImage("#right_tensorflow", 'left', function(pos){return ($(window).width()-$('#right_tensorflow').width())}, function(pos){return pos<($(window).width()-$('#right_tensorflow').width())}, function(pos){return (($(window).width()-pos)-$('#right_tensorflow').width())-50})
 
-movingImage("#left_js", 'left', function(pos){return 0}, function(pos){return pos>0}, function(pos){return pos+50})
-movingImage("#right_js", 'left', function(pos){return ($(window).width()-$('#right_js').width())}, function(pos){return pos<($(window).width()-$('#right_js').width())}, function(pos){return (($(window).width()-pos)-$('#right_js').width())-50})
 
-
-movingText("#section_desc_ccg")
-movingText("#section_desc_terminalEngine")
-movingText("#section_desc_simpleml")
-movingText("#section_desc_ofp")
+movingText("#section_desc_About")
+movingText("#section_desc_pcSpecs")
+movingText("#section_desc_something1")
+movingText("#section_desc_something2")
 movingText("#section_desc_tensorflow")
-movingText("#section_desc_js")
 
 
 //($(window).width()-$('#right').width())
