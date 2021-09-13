@@ -155,8 +155,8 @@ header > h2{
 }
 
 
-.section_backgroud.bdImage{
-    background-color: #2980b9;
+.section_backgroud.Please{
+    background-color: #1D1C1A;
 }
 
 .section_backgroud.something2{
@@ -250,6 +250,14 @@ header > h2{
     background-color: #EA2027;
 }
 
+.section_tag.black{
+    background-color: #000000;
+}
+
+.section_tag.white{
+    background-color: #FFFFFF;
+}
+
 .text_comment{
     color: #8dc891;
 }
@@ -281,8 +289,8 @@ header > h2{
     border-top: 50px solid #e74c3c;
 }
 
-.arrow.bdImage{
-    border-top: 50px solid #2980b9;
+.arrow.Please{
+    border-top: 50px solid #1D1C1A;
 }
 
 .arrow.something2{
